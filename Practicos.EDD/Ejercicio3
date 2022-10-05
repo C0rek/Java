@@ -1,0 +1,28 @@
+public class Ejercicio3 {
+    public static void main(String[] args) {
+        // CICLO FOR
+        int suma=0; 
+        for (int i=0; i<10; i++){ 
+            suma+=i;
+            System.out.println(suma + " " +i); 
+        } 
+
+        // CICLO WHILE
+        //int suma=0; 
+        int i=0; 
+        while (i<10){ 
+            suma+=i; 
+            i++;
+            System.out.println(suma + " " +i);
+        }
+
+        // CICLO DO-WHILE
+        //int i=0; 
+        //int suma=0;
+        do { 
+            suma+=i; 
+            i++; 
+        } while (i<10);
+        System.out.println(suma);    
+    }   
+}
